@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="canonical" href="https://www.ireava.com/modules"/>
+    <title>Online Exam, Online Class, Lesson Plan, Transport, Fees, Attendance, Payroll | 40+ Modules | Ireava</title>
+    <meta property="og:title" content="Online Exam, Online Class, Lesson Plan, Transport, Fees, Attendance, Payroll | 40+ Modules | Ireava"/>
+    <meta name="description" content="Experience The Elite Modules of School ERP · Lesson Planning · Online Assessment · Study Center · Live Classes · Attendance Management · Fees Management. Bus Tracking. Online Examination etc 30 more modules best in the industry all in one school management application." />
+    <meta property="og:description" content="Experience The Elite Modules of School ERP · Lesson Planning · Online Assessment · Study Center · Live Classes · Attendance Management · Fees Management. Bus Tracking. Online Examination etc 30 more modules best in the industry all in one school management application." />
+	 <meta property="og:keyword" content="Online Exam Management, Online Class Management, Lesson Planning, Transport Management, Fees Management, Attendance Management, Payroll Management, Human Resources, Reception Desk, Alumni Management, School Finance Management, Live Classes, Inventory Management, Hostel Management, Library Management, Online Library Management, Communication Management"/>
+	 <meta name="keyword" content="Online Exam Management, Online Class Management, Lesson Planning, Transport Management, Fees Management, Attendance Management, Payroll Management, Human Resources, Reception Desk, Alumni Management, School Finance Management, Live Classes, Inventory Management, Hostel Management, Library Management, Online Library Management, Communication Management"/>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Ireava",
+          "url": "https://www.ireava.com/modules/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+	<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '904711380600503');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=904711380600503&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE9CGPZ8T0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BE9CGPZ8T0');
+</script>
+</head>
+
+<body>
+    <br/>
+    <br/>
+    <section id="product" class="modules  s-section-padding ">
+        <div class="container">
+            <div class="c-headline">
+                <h1>Experience The
+                    <strong class="maincolor">Elite Modules</strong> of <span id="word">School</span> ERP</h1>
+                <p>{{modulel1}}</p>
+            </div>
+            <br/>
+			 <div class="row">
+                <center><div class="col-sm-4 col-sm-offset-4"><a class="c-btn btn1123 video-btn anctext hand" href="./About_Ireava.pdf" target="_blank">Download Brochure</a>
+					</div></center>
+            </div><br />
+            <div class="row">
+                <div class="col-md-4 col-md-offset-8">
+                    <div class="divpositn">
+                        <input type="text" class="form-control" placeholder="Search Module..." ng-model="searchText.list">
+                        <div class="divstyl">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6 padd15" ng-repeat="details in moduleslist | filter:searchText | orderBy: '' as filtered_result">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="well wellbox1">
+                                    <img src="https://ireava.sirv.com/Images/img/png/{{details.svg}}" alt="{{details.alt}}" class="img-responsive center">
+                                <div class="c-headline">
+                                    <h2>{{details.headline}}</h2>
+                                </div>
+                                <ul>
+                                    <li class="points lstn" ng-repeat="x in details.list">
+                                        {{x}}</li>
+                                </ul><br/>
+                                <h2 class="text-right">
+                                    <a href="/{{details.viewlink}}">More Features <i class="fas fa-angle-right fa-sm"></i><i class="fas fa-angle-right fa-sm"></i></a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert alert-info" ng-show="filtered_result.length == 0">
+                    <h3>Keyword not found! Try with other keyword.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script type="text/javascript">
+    $(function () {
+      count = 0;
+      wordsArray = ["College", "Institute", "School"];
+      setInterval(function () {
+        count++;
+        $("#word").fadeOut(400, function () {
+          $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+        });
+      }, 7000);
+    });
+    </script>
+</html>

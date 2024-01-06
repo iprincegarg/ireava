@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "name": "ireava",
+  "version": "3.0.0",
+  "description": "ireava",
+  "main": "index.html",
+  "author": "SGRG Core Solutions Pvt Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
