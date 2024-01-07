@@ -3032,10 +3032,13 @@ ul li {
   transform: rotateX(90deg)
 } */
 
-.backimg12 {
-  background-image: url(https://ireava.sirv.com/Images/assets/images/bg-home.png)
-}
+/*.backimg12 {
+  background-image: url()
+}*/
 
+.backimg12{
+  background-color:#0d3c81;	
+  }
 .margb0 {
   margin-bottom: 0 !important
 }
